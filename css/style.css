@@ -1,0 +1,55 @@
+body{
+    margin:0;
+}
+
+header{
+    padding:1.25rem;
+    background-color:#a4d7e1;
+    position: relative;
+}
+
+.logo{
+    display:inline-block;
+    position: relative;
+    left:10%;
+}
+
+.buscador{
+    position: absolute;
+    top:35%;
+    left:20%;
+    border-radius:0.625rem;
+    font-size:1.25rem;
+    width:31.25rem;
+    padding:0.625rem;
+}
+
+.buscador:hover{
+    box-shadow:3px 10px 8px #07031a;
+}
+
+.opciones-nav{
+    width:25rem;
+    position:absolute;
+    top:30%;
+    right:80px;
+    padding:0;
+}
+
+.opciones-nav li{
+    display: inline-block;
+    margin:0 0.625rem;
+    list-style:none;
+}
+
+.opciones-nav a{
+    color:#17bebb;
+    text-decoration:none;
+    font-size:1.25rem;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.opciones-nav a:hover{
+    color:#22577A;
+}
